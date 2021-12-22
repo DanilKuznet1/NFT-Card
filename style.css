@@ -69,5 +69,83 @@ body {
   font-family: "Outfit", sans-serif;
   line-height: 1;
   font-weight: 400;
+  font-size: 1.8rem;
   color: hsl(215, 51%, 70%);
+  background-color: hsl(217, 54%, 11%);
+  width: 144rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 35rem;
+  max-height: auto;
+  padding: 2.5rem;
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  border-radius: 1.5rem;
+}
+
+div.card h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+div.card p {
+  font-weight: 350;
+  margin-top: -0.5rem;
+}
+
+/* styling main img */
+.equilibrium-img {
+  max-width: 100%;
+  max-height: auto;
+  border-radius: 1rem;
+}
+
+/* styling time and cost section */
+.cost-time-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cost-time-section .cost_s,
+.cost-time-section .time_s {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.eth-price {
+  color:hsl(178, 100%, 50%);
+}
+
+/* styling section creator */
+.creator-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-top: 0.1rem solid rgba(236, 236, 236, 0.15);
+  padding-top: 1.6rem;
+}
+
+/* styling author name and img */
+.author-img {
+  max-width: 3.4rem;
+  max-height: 3.4rem;
+  border: 0.15rem solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.card .creator-section p {
+  font-size: 1.6rem;
+}
+
+.card .creator-section span {
+  color: hsl(0, 0%, 100%);
 }
